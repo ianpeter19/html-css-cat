@@ -1,0 +1,97 @@
+.container{
+	margin: 0px;
+	background-size: cover;
+	width: 1000px;
+	height:340px;
+	background-image: url("../images/black.jpeg");
+	/*text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;*/
+}
+.container li{
+	padding: 10px;
+	margin-top: 3px;
+	display: inline;
+}
+.container a{
+	float: left;
+	font-weight: bolder;
+	font-style:bold;  	
+	display: inline;
+	padding: 10px 15px 0 15px;
+	font-size: 23px;
+	text-transform: uppercase;	
+	font-size: 1.5em;
+  	color: red;
+}
+.container a:hover{
+	color: #ffffff;;
+	-webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px yellow;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 
+      0 0 30px #fff, 0 0 40px #FF1177, 
+      0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 
+      0 0 150px #FF1177;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 
+      0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 
+      0 0 100px #228DFF, 0 0 150px #228DFF; /*provides a glowing effect*/
+  }
+.container a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/*.comtainer a:visited{
+	color: yellow;
+}
+.conteainer a:focus{
+	color: purple;*/
+.first {
+	margin:2px;
+	text-align: center;
+	justify-content: center;	
+}
+.table{
+	border-top: solid silver;
+	font-size: 13px;
+}
+.td2 {
+	border-right: thick solid silver;
+	border-left: thick solid silver; 
+}
+.final{
+	padding-left: 76px;
+	padding-right: 76px;
+}
+.padding{
+margin-left: 750px;
+font-size: 13px;
+}
+.footer{
+
+}
+.green{
+	color: green;
+}
+.blue{
+	color: blue;
+}
+.yellow{
+	color: yellow;
+}
+.footer{
+	height: 50px;
+	background-image: url("../images/cisco1.jpeg");
+	height: 130px;
+	border-image: stretch;
+	width: 97%;
+}
+.edge{
+	margin-left: 195px;
+	font-size: 13px;
+}
+.holding{
+	background-color: silver;
+	height: 35px;
+}
